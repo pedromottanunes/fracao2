@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dose Certa: Frações e Remédios</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="container">
+        <h1>Dose Certa</h1>
+        <div class="game-box">
+            <div class="challenge" id="challengeText"></div>
+            <div class="frascos-area">
+                <canvas id="frascoCanvas" width="260" height="220"></canvas>
+            </div>
+            <div class="controls">
+                <label for="fractionInput">Qual fração da dose você selecionou?</label>
+                <input id="fractionInput" type="text" placeholder="Ex: 3/8" autocomplete="off" />
+                <button id="checkBtn">Verificar</button>
+                <button id="nextBtn" style="display:none">Próximo</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+            <div id="score" class="score">Pontos: 0</div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 · Jogo educativo de frações – Dose Certa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
