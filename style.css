@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(120deg, #f0f7fa 0%, #e0e7ff 100%);
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    color: #2b3a4a;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 32px rgba(80, 91, 209, 0.09);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #3878c2;
+}
+
+.game-box {
+    margin-top: 8px;
+}
+
+.challenge {
+    font-size: 1.18rem;
+    margin-bottom: 16px;
+}
+
+.frascos-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+canvas {
+    background: #ecf7fa;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px #e4ecf1;
+}
+
+.controls {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="text"] {
+    padding: 8px 16px;
+    font-size: 1.06rem;
+    border: 1px solid #c9daf6;
+    border-radius: 7px;
+    margin-bottom: 6px;
+    width: 110px;
+    text-align: center;
+}
+
+button {
+    padding: 9px 18px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #3878c2;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 1px 4px rgba(56, 120, 194, 0.09);
+    transition: background 0.2s;
+}
+button:hover, button:focus {
+    background: #4a91d6;
+}
+
+.feedback {
+    min-height: 26px;
+    font-size: 1.10rem;
+    margin: 8px 0 2px 0;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 1.01rem;
+    color: #386192;
+    margin-bottom: 4px;
+}
+
+footer {
+    margin-top: 26px;
+    text-align: center;
+    color: #a0aec0;
+    font-size: 0.95rem;
+}
